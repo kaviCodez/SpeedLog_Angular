@@ -235,36 +235,6 @@ secondsCounter.subscribe(n => {
 
 console.log("location"+this.locations)
 
-    loader.load().then(()=>{
-
-      const location = {
-
-        lat:19.289193419745192,
-
-        lng: -81.36917155103163
-
-      };
-
-      const markerLocation = {
-
-        lat:19.29810454482719,
-
-        lng: -81.35758441835928
-
-      };
-
-       this.map =new google.maps.Map(document.getElementById("map"),{
-
-        center:location,
-
-        zoom: 15
-
-      })
-
-      
-
-    })
-
     
 
    
